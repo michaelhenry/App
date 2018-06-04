@@ -77,7 +77,7 @@
 		A6F0B83E20C5B5BA0002740A = {
 			isa = PBXGroup;
 			children = (
-				A6F0B84920C5B5BA0002740A /* App */,
+				A6F0B84920C5B5BA0002740A /* Sources */,
 				A6F0B85E20C5B5BD0002740A /* AppTests */,
 				A6F0B86920C5B5BD0002740A /* AppUITests */,
 				A6F0B84820C5B5BA0002740A /* Products */,
@@ -94,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6F0B84920C5B5BA0002740A /* App */ = {
+		A6F0B84920C5B5BA0002740A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				A6F0B84A20C5B5BA0002740A /* AppDelegate.swift */,
@@ -104,7 +104,7 @@
 				A6F0B85320C5B5BD0002740A /* LaunchScreen.storyboard */,
 				A6F0B85620C5B5BD0002740A /* Info.plist */,
 			);
-			path = App;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		A6F0B85E20C5B5BD0002740A /* AppTests */ = {
