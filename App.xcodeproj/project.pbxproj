@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64E000F20C683F500E2A560 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E000E20C683F500E2A560 /* Routable.swift */; };
+		A64E001120C6863900E2A560 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E001020C6863900E2A560 /* LoginViewController.swift */; };
+		A64E001320C6864300E2A560 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E001220C6864300E2A560 /* ResetPasswordViewController.swift */; };
+		A64E001520C6865000E2A560 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E001420C6865000E2A560 /* RegistrationViewController.swift */; };
+		A64E001720C6879700E2A560 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64E001620C6879700E2A560 /* Auth.storyboard */; };
 		A6F0B84B20C5B5BA0002740A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0B84A20C5B5BA0002740A /* AppDelegate.swift */; };
 		A6F0B84D20C5B5BA0002740A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0B84C20C5B5BA0002740A /* ViewController.swift */; };
 		A6F0B85020C5B5BA0002740A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F0B84E20C5B5BA0002740A /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		A6F0B85520C5B5BD0002740A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F0B85320C5B5BD0002740A /* LaunchScreen.storyboard */; };
 		A6F0B86020C5B5BD0002740A /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0B85F20C5B5BD0002740A /* AppTests.swift */; };
 		A6F0B86B20C5B5BD0002740A /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0B86A20C5B5BD0002740A /* AppUITests.swift */; };
+		A6F0B87A20C5B7300002740A /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0B87920C5B7300002740A /* StoryboardLoadable.swift */; };
+		A6F0B87D20C5B7760002740A /* UIViewController+StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0B87C20C5B7760002740A /* UIViewController+StoryboardLoadable.swift */; };
+		A6F0B88620C5B9210002740A /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0B88520C5B9210002740A /* AppRoute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A64E000E20C683F500E2A560 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		A64E001020C6863900E2A560 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A64E001220C6864300E2A560 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		A64E001420C6865000E2A560 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		A64E001620C6879700E2A560 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		A6F0B84720C5B5BA0002740A /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F0B84A20C5B5BA0002740A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F0B84C20C5B5BA0002740A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		A6F0B86620C5B5BD0002740A /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F0B86A20C5B5BD0002740A /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		A6F0B86C20C5B5BD0002740A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F0B87920C5B7300002740A /* StoryboardLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
+		A6F0B87C20C5B7760002740A /* UIViewController+StoryboardLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardLoadable.swift"; sourceTree = "<group>"; };
+		A6F0B88520C5B9210002740A /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				A6F0B84A20C5B5BA0002740A /* AppDelegate.swift */,
-				A6F0B84C20C5B5BA0002740A /* ViewController.swift */,
-				A6F0B84E20C5B5BA0002740A /* Main.storyboard */,
+				A6F0B88420C5B90A0002740A /* Configs */,
+				A6F0B87B20C5B7550002740A /* Extensions */,
+				A6F0B87820C5B71A0002740A /* Protocols */,
+				A6F0B88320C5B8B70002740A /* Storyboards */,
+				A6F0B88220C5B8A50002740A /* ViewControllers */,
 				A6F0B85120C5B5BD0002740A /* Assets.xcassets */,
-				A6F0B85320C5B5BD0002740A /* LaunchScreen.storyboard */,
 				A6F0B85620C5B5BD0002740A /* Info.plist */,
 			);
 			path = Sources;
@@ -123,6 +141,52 @@
 				A6F0B86C20C5B5BD0002740A /* Info.plist */,
 			);
 			path = AppUITests;
+			sourceTree = "<group>";
+		};
+		A6F0B87820C5B71A0002740A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0B87920C5B7300002740A /* StoryboardLoadable.swift */,
+				A64E000E20C683F500E2A560 /* Routable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A6F0B87B20C5B7550002740A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0B87C20C5B7760002740A /* UIViewController+StoryboardLoadable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6F0B88220C5B8A50002740A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0B84C20C5B5BA0002740A /* ViewController.swift */,
+				A64E001420C6865000E2A560 /* RegistrationViewController.swift */,
+				A64E001020C6863900E2A560 /* LoginViewController.swift */,
+				A64E001220C6864300E2A560 /* ResetPasswordViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A6F0B88320C5B8B70002740A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0B85320C5B5BD0002740A /* LaunchScreen.storyboard */,
+				A6F0B84E20C5B5BA0002740A /* Main.storyboard */,
+				A64E001620C6879700E2A560 /* Auth.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A6F0B88420C5B90A0002740A /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0B88520C5B9210002740A /* AppRoute.swift */,
+			);
+			path = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64E001720C6879700E2A560 /* Auth.storyboard in Resources */,
 				A6F0B85520C5B5BD0002740A /* LaunchScreen.storyboard in Resources */,
 				A6F0B85220C5B5BD0002740A /* Assets.xcassets in Resources */,
 				A6F0B85020C5B5BA0002740A /* Main.storyboard in Resources */,
@@ -256,8 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64E001120C6863900E2A560 /* LoginViewController.swift in Sources */,
 				A6F0B84D20C5B5BA0002740A /* ViewController.swift in Sources */,
+				A6F0B87D20C5B7760002740A /* UIViewController+StoryboardLoadable.swift in Sources */,
+				A64E001520C6865000E2A560 /* RegistrationViewController.swift in Sources */,
 				A6F0B84B20C5B5BA0002740A /* AppDelegate.swift in Sources */,
+				A6F0B88620C5B9210002740A /* AppRoute.swift in Sources */,
+				A64E001320C6864300E2A560 /* ResetPasswordViewController.swift in Sources */,
+				A6F0B87A20C5B7300002740A /* StoryboardLoadable.swift in Sources */,
+				A64E000F20C683F500E2A560 /* Routable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
