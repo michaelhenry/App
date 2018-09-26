@@ -1,0 +1,30 @@
+stages:
+  - cleanup_workspace
+  - install_dependencies
+  - unit_tests
+
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+
+cleanup_workspace:
+  stage: cleanup_workspace
+  script:
+    - xcodebuild clean -workspace App.xcworkspace -scheme App
+  tags:
+    - ios
+
+install_dependencies:
+  stage: install_dependencies
+  script:
+    - gem install bundler
+    - bundle install
+  tags:
+    - ios
+
+unit_tests:
+  stage: unit_tests
+  script:
+    - fastlane test
+  tags:
+    - ios
