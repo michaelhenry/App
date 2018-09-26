@@ -19,6 +19,7 @@ install_dependencies:
   script:
     - gem install bundler
     - bundle install
+    - pod install
   tags:
     - ios
 
