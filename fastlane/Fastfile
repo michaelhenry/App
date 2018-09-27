@@ -4,7 +4,7 @@ platform :ios do
   desc "Runs all the tests"
   lane :test do
     scan(
-      clean: false,
+      clean: true,
       scheme: "App",
       device: "iPhone X",
     )
