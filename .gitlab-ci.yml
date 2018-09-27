@@ -1,0 +1,13 @@
+stages:
+  - unit_tests
+
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+
+unit_tests:
+  stage: unit_tests
+  script:
+    - fastlane test
+  tags:
+    - ios
